@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #2E302F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10;
+    font-weight: inherit
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background: #929292;
+}
+
+#shopping-cart {
+    width: 25px;
+    height: 25px;
+}
+
+/* HEADER */
+
+header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding: 0 13%;
+    overflow: hidden;
+    
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    padding: 0 60px;
+    margin-top: 4%;
+}
+
+header ul li a {
+    font-size: 13px;
+    color: white;
+}
+
+header a:hover {
+    opacity: 0.7;
+}
+
+/* BODY PAGE */
+
+.main-img {
+    display: flex;
+    width: 100%;
+    height: 512px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-img img {
+    width: 100%;
+    height: 667px;
+    margin: 15% 10% 0 10%;
+}
+
+/* CARTS */
+
+.carts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10% 0% 0 10%;
+}
+
+.box {
+    position: relative;
+    width: 29%;
+    height: 350px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 65px;
+}
+
+.box .sub-box {
+    position: absolute;
+    height: 20%;
+    background: transparent;
+    padding: 10px;
+    margin-top: 1px;
+}
+
+.box .sub-box p {
+    color: rgba(230, 230, 230, 0.993);
+}
+
+.box .sub-box strong {
+    color: rgba(255, 255, 255, 0.993);
+}
+
+.carts .img {
+    width: 100%;
+    height: 335px;
+}
+
+.second {
+    display: none;
+}
+
+.button {
+    position: absolute;
+    top: 100%;
+    background: #929292;
+    height: 50px;
+    width: 100%;
+    color: black;
+    cursor: pointer;
+    border: 0;
+    display: none;
+    top: 82%;
+}
+
+.box small {
+    position: absolute;
+    background: #d6b007a4;
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    width: 70px;
+    text-align: center;
+}
+
+#more {
+    position: relative;
+    margin: 10% auto;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px 50px 10px 50px;
+    border: 1px solid #555706;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+    color: #c2bebe;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+#more:hover {
+    opacity: 0.8;
+}
+
+.sub {
+    display: none;
+}
+
+.icons {
+    position: fixed;
+    justify-self: start;
+    margin-left: 5%;
+    align-self: center;
+    margin-top: 20%;
+}
+
+.icons ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+.icons li{
+    margin: 10px;
+}
+
+.icons li img, svg{
+    width: 23px;
+    height: 23px;
+}
