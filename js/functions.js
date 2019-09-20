@@ -3,19 +3,6 @@ var img_2 = document.getElementsByClassName("second")
 var button = document.getElementsByClassName("button")
 
 
-$("document").ready(function($){
-    var nav = $('.menu-fixo');
-
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 150) {
-            nav.addClass("fixo");
-        } else {
-            nav.removeClass("fixo");
-        }
-    });
-});
-
-
 function hiddeImg(index) {
     img_1[index].style.display = "none"
     img_2[index].style.display = "block"
